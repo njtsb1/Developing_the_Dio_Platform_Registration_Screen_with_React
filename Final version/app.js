@@ -103,4 +103,3 @@ languageSelect.addEventListener('change', () => {
   document.querySelector('.legal').textContent = t.legal;
   document.querySelector('.signin').textContent = t.login;
 });
-.
