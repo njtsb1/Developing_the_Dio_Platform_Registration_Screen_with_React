@@ -3,9 +3,12 @@ Daily learning
 # Developing the Dio Platform Registration Screen with React
 
 Project developed at the Bootcamp Orange Tech + with guidance from specialist [Pablo Henrique](https://github.com/pablohdev "Pablo Henrique").
+
 Learning how to create a registration screen for the Dio platform, using the concepts covered in the following modules: React CLI, Styling with styled-components, Hooks, and Forms.
 
 [Application](/src/assets/dio_register.png.png)
+
+<img width="1366" height="764" alt="dio_register" src="https://github.com/user-attachments/assets/9d7646ea-c1bd-45a5-a848-d735d9c5ef7d" />
 
 [LICENSE](/LICENSE)
 
