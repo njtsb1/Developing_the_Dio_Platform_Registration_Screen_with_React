@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIO - Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <div class="logo">dio.</div>
+        <nav class="nav">
+          <a class="nav__link" href="#">Home</a>
+          <a class="nav__link" href="#">Entrar</a>
+          <a class="nav__link nav__link--primary" href="#">Cadastrar</a>
+        </nav>
+      </div>
+      <button id="toggleTheme" class="btn">🌙 Modo Claro</button>
+      <select id="languageSelect" class="input">
+  <option value="pt-BR">Português</option>
+  <option value="en-US">English</option>
+  <option value="es-ES">Español</option>
+</select>
+    </header>
+
+    <main class="main">
+      <div class="container grid">
+        <section class="hero">
+          <h1 class="hero__title">
+            The platform for you to learn from experts, master the main technologies, and enter the most desired companies faster.
+          </h1>
+        </section>
+
+        <section class="card">
+          <h2 class="card__title">Comece agora grátis</h2>
+
+          <form id="signupForm" class="form" novalidate>
+            <div class="form__field">
+              <label for="name" class="form__label">Nome completo</label>
+              <input id="name" name="name" type="text" class="input" placeholder="Seu nome" required />
+              <small class="error" data-error-for="name"></small>
+            </div>
+
+            <div class="form__field">
+              <label for="email" class="form__label">E-mail</label>
+              <input id="email" name="email" type="email" class="input" placeholder="voce@exemplo.com" required />
+              <small class="error" data-error-for="email"></small>
+            </div>
+
+            <div class="form__field">
+              <label for="password" class="form__label">Password</label>
+              <input id="password" name="password" type="password" class="input" placeholder="••••••••" minlength="6" required />
+              <small class="error" data-error-for="password"></small>
+            </div>
+
+            <button type="submit" class="btn btn--primary">Criar minha conta</button>
+
+            <p class="legal">
+              Ao clicar em “criar minha conta grátis”, declaro que aceito as
+              <a href="#" class="link">Políticas de Privacidade</a> e os
+              <a href="#" class="link">Termos de Uso</a> da DIO.
+            </p>
+
+            <p class="signin">
+              Já tenho conta. <a href="#" class="link">Fazer login</a>
+            </p>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="muted">© 2026 DIO — Made by Nivaldo Beirão</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
